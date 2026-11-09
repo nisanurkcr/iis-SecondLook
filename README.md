@@ -1,39 +1,70 @@
-# SecondLook: security warning prototype
+# SecondLook
 
-README prose word count: 585 (headings and bullets included; code and commands excluded).
+README prose word count: 595 (including headings and lists, excluding this word-count line).
 
 ## Project status
-An early interactive prototype for Understanding Security Warnings in AI-Assisted Programming. It contains one fixed Python sqlite3 example. The interface works, but the warning, explanation and repair suggestion are manually prepared simulations. No AI model, scanner or external API is connected. This is not a general-purpose security analyser.
 
-Working controls: explanation, suggested-change comparison, accept, keep original, undo and restart. Accept changes only the displayed code. Nothing is executed or stored.
+SecondLook is an interactive prototype for students using AI coding assistants. It helps them understand a security warning and decide whether to accept a suggested change.
+
+The prototype uses one prepared Python sqlite3 example about SQL injection. The buttons and screen changes work. The warning, explanation and suggested fix are prewritten simulations. No live AI model or security scanner is connected.
+
+Users can:
+
+- Read the warning and open an explanation.
+- Compare the original code and suggested fix.
+- Accept the change or keep the original.
+- Undo an accepted change or restart the example.
+- Answer an optional reflection question and receive feedback.
+
+Changes affect only the displayed example. No code is executed, and no user data is saved. The prototype does not check other code or guarantee that an application is secure.
 
 ## Technology stack
-HTML, CSS and plain JavaScript. No dependencies, API keys, server or installation required. The AI behaviour is simulated using fixed text. A live model remains outside the current scope.
 
-## Run or inspect
-Download and extract the project. Open index.html in a web browser. Alternatively, open the folder in VS Code and inspect index.html. An internet connection is unnecessary.
+- HTML provides the page structure.
+- CSS controls the appearance and responsive layout.
+- JavaScript controls the buttons, displayed code and feedback.
+- ChatGPT helped develop the project. The prototype itself does not call ChatGPT or another model.
 
-## Interaction walkthroughs
-1. Open Explain warning, compare the suggested fix, then accept it. Observe the changed code and decision feedback.
-2. Compare the fix and select Keep original. Observe that the original remains and the feedback identifies the unresolved issue.
-3. Accept the change, then undo it. Restart restores the initial interface state.
+No dependencies, API keys, backend or installation are needed. A live AI connection is outside the current scope.
+
+## How to run
+
+1. Download the repository using **Code → Download ZIP**.
+2. Extract the ZIP.
+3. Open `index.html` in a web browser.
+
+You can also inspect the file in VS Code. No localhost server or internet connection is needed after downloading.
 
 ## Development record
-Initial prototype, 9 November 2026: selected one fixed example to keep development manageable. Added an explanation on request, explicit user approval before replacing code, and undo. Marked all generated-assistant behaviour as simulated. These are initial design proposals to discuss and relate to the module material.
 
-Checks: an automated JavaScript state-transition check passed for explanation, comparison, accept, reject, undo and restart. This checks interface logic, not browser rendering, usability or security effectiveness. No user evaluation has been conducted.
+The following stages took place on 9 November 2026:
 
-Visual revision, 9 November 2026: following a request for a more attractive interface, separated the editor and warning into panels, added three review steps and a persistent decision area, and updated the editor status after acceptance. Layout adapts to narrow screens. Re-ran the JavaScript state checks successfully. Browser rendering has not been verified in this environment because the browser download failed; check desktop and mobile appearance manually.
+- Started with one fixed example to keep the scope manageable. Added explanation, comparison, accept/reject, undo and restart controls.
+- Separated the code and warning into panels to make the interaction easier to follow.
+- Added a light-hearted introduction, side-by-side comparison and highlighting of the original query. Kept the warning text factual and the simulation labels visible.
+- Added optional reflection feedback to help users check their understanding.
+- Renamed the project SecondLook and the repository iis-SecondLook.
 
-Product-style revision, 9 November 2026: added a light-hearted introduction at the student's request. Kept warning descriptions factual and explicitly labelled the opening illustration as fictional. Added side-by-side comparison, line numbers with original-query highlighting, visible acceptance status, and optional reflection with explanatory feedback. The reflection is not graded or saved. Interface-state checks passed for these controls and reset; internal links and accessible control targets were checked. Visual browser verification and user evaluation are still pending.
-
-Brand revision, 9 November 2026: renamed the prototype SecondLook following the student’s choice. The existing GitHub repository name remains iis-codecheck; it does not need to match the product name.
+Automated JavaScript checks passed for the main controls, reflection feedback and reset behaviour. Internal links and control targets were also checked. These checks do not establish usability or security effectiveness. Browser appearance and mobile layout still need manual checking. No user study has been conducted.
 
 ## AI assistance
-ChatGPT prepared the initial HTML, CSS, JavaScript and this README, and revised the visual layout and introductory copy following the student’s requests. It also generated and ran the interface state-transition check. The student should inspect the code, try the interactions, revise the design and record their own checks before submission. No claim is made that the student has already performed those checks.
+
+ChatGPT generated the initial HTML, CSS, JavaScript and README. It also revised the interface, suggested names, wrote the introductory text, and drafted the simulated security warning, explanation, fix and reflection feedback.
+
+I requested visual changes and a humorous but serious introduction, selected the design and approved the name SecondLook. ChatGPT applied these revisions. This was substantial assistance, not only grammar correction.
+
+ChatGPT generated and ran JavaScript interaction checks. An initial JavaScript syntax error was found and corrected before those checks passed. A browser-based check was attempted, but the browser download failed, so browser rendering was not verified through that check.
+
+Before submission, I still need to review the code and security explanation, try all controls in a browser, and record the results. This README does not claim those personal checks are complete. There is no live AI service inside the prototype; its responses are fixed text.
 
 ## Repository and submission
-The public repository has been created at https://github.com/nisanurkcr/iis-codecheck. This local revision has not yet been uploaded. Add the final submitted commit SHA to the report after uploading and reviewing the work.
+
+Repository: https://github.com/nisanurkcr/iis-SecondLook
+
+README: https://github.com/nisanurkcr/iis-SecondLook#readme
+
+The final submitted commit has not yet been selected. Its SHA must be added to the report when the submission version is ready.
 
 ## Additional files
-index.html is the complete prototype. The project report, abstract, architecture diagram and illustrated storyboards are separate deliverables and are not included in this starter project.
+
+`index.html` contains the complete prototype. The project report, abstract, system diagram and illustrated interaction examples are separate deliverables. They are not included in this version. No additional ZIP is needed to run the repository version.
