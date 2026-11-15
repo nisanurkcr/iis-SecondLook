@@ -88,4 +88,4 @@ The submitted commit SHA is recorded in the project report to identify the exact
 
 ## Additional files
 
-`index.html` contains the complete prototype. The project report includes the illustrated interactions and is submitted separately. It is not included in this repository version. No additional ZIP is needed to run the prototype
+`index.html` contains the complete prototype. The project report includes the illustrated interactions and is submitted separately. It is not included in this repository version. No additional ZIP is needed to run the prototype.
