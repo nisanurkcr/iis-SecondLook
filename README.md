@@ -1,7 +1,5 @@
 # SecondLook
 
-README prose word count: 808 (including headings and lists, excluding this line and Markdown heading or bullet markers; counted using whitespace-separated words).
-
 ## Project status
 
 SecondLook is an interactive prototype for students using AI coding assistants. It explores how an interface can help users understand a security warning, inspect a suggested fix and decide what to do.
@@ -88,4 +86,4 @@ The submitted commit SHA is recorded in the project report to identify the exact
 
 ## Additional files
 
-`index.html` contains the complete prototype. The project report includes the illustrated interactions and is submitted separately. It is not included in this repository version. No additional ZIP is needed to run the prototype.pository version. No additional ZIP is needed to run the prototype.
+`index.html` contains the complete prototype. The project report includes the illustrated interactions and is submitted separately. It is not included in this repository version. No additional ZIP is needed to run the prototype.
