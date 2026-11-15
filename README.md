@@ -1,6 +1,6 @@
 # SecondLook
 
-README prose word count: 595 (including headings and lists, excluding this word-count line).
+README prose word count: 655 (including headings and lists, excluding this word-count line; counted using whitespace-separated words without Markdown heading or bullet markers).
 
 ## Project status
 
@@ -45,7 +45,7 @@ The following stages took place on 9 November 2026:
 - Added optional reflection feedback to help users check their understanding.
 - Renamed the project SecondLook and the repository iis-SecondLook.
 
-Automated JavaScript checks passed for the main controls, reflection feedback and reset behaviour. Internal links and control targets were also checked. These checks do not establish usability or security effectiveness. Browser appearance and mobile layout still need manual checking. No user study has been conducted.
+Automated JavaScript checks passed for the main controls, reflection feedback and reset behaviour. Internal links and control targets were also checked. These checks do not establish usability or security effectiveness. On 15 November 2026, I manually checked the prototype in Chrome on macOS. All buttons worked: explanation, comparison, accept, keep original, undo, restart and reflection. I checked that the original code remained unchanged until acceptance, that acceptance updated the displayed code and status, and that the accept button became disabled. Restart restored the initial state. I also checked the desktop appearance and narrowed the browser window: the panels stacked and the text and buttons remained usable. This was a narrow-window check, not a test on a physical mobile device. No user study has been conducted.
 
 ## AI assistance
 
@@ -55,7 +55,7 @@ I requested visual changes and a humorous but serious introduction, selected the
 
 ChatGPT generated and ran JavaScript interaction checks. An initial JavaScript syntax error was found and corrected before those checks passed. A browser-based check was attempted, but the browser download failed, so browser rendering was not verified through that check.
 
-Before submission, I still need to review the code and security explanation, try all controls in a browser, and record the results. This README does not claim those personal checks are complete. There is no live AI service inside the prototype; its responses are fixed text.
+I manually tried the browser controls and checked the desktop and narrow-window layouts, as recorded above. Reviewing the code and checking the security explanation against the relevant sources remain to be completed before submission. There is no live AI service inside the prototype; its responses are fixed text.
 
 ## Repository and submission
 
