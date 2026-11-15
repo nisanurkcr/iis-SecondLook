@@ -1,6 +1,6 @@
 # SecondLook
 
-README prose word count: 655 (including headings and lists, excluding this word-count line; counted using whitespace-separated words without Markdown heading or bullet markers).
+README prose word count: 667 (including headings and lists, excluding this word-count line; counted using whitespace-separated words without Markdown heading or bullet markers).
 
 ## Project status
 
@@ -55,7 +55,7 @@ I requested visual changes and a humorous but serious introduction, selected the
 
 ChatGPT generated and ran JavaScript interaction checks. An initial JavaScript syntax error was found and corrected before those checks passed. A browser-based check was attempted, but the browser download failed, so browser rendering was not verified through that check.
 
-I manually tried the browser controls and checked the desktop and narrow-window layouts, as recorded above. Reviewing the code and checking the security explanation against the relevant sources remain to be completed before submission. There is no live AI service inside the prototype; its responses are fixed text.
+I manually tried the browser controls and checked the desktop and narrow-window layouts, as recorded above. ChatGPT reviewed the code, checked the JavaScript syntax, and tested the SQL examples in a separate temporary SQLite database. The explanation was checked against the official Python sqlite3 documentation: https://docs.python.org/3/library/sqlite3.html There is no live AI service inside the prototype; its responses are fixed text.
 
 ## Repository and submission
 
