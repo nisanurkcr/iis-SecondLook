@@ -1,6 +1,6 @@
 # SecondLook
 
-README prose word count: 801 (including headings and lists, excluding this line and Markdown heading or bullet markers; counted using whitespace-separated words).
+README prose word count: 808 (including headings and lists, excluding this line and Markdown heading or bullet markers; counted using whitespace-separated words).
 
 ## Project status
 
@@ -46,7 +46,7 @@ No internet connection is needed after downloading. The source can also be inspe
 - **Presentation:** Requested a more attractive interface and an informal introduction. Selected the SecondLook name. Kept simulation labels and factual security explanations visible.
 - **Reflection:** Added an optional question with explanatory feedback. Answers are not graded or saved.
 - **Checks:** Manually tried the browser controls and reviewed the desktop and narrow-window layouts. Used AI-assisted code and SQL checks, as described below.
-- **Report preparation:** Developed the rationale and illustrated interactions alongside the prototype. Used screenshots of the actual interface and reviewed AI suggestions about lecture concepts and the system diagram.
+- **Report preparation:** Developed the rationale and illustrated interactions alongside the prototype. Used screenshots of the actual interface and reviewed AI suggestions about lecture concepts.
 
 ## Checks and limitations
 
@@ -65,11 +65,13 @@ AI assistance was substantial and included both the prototype and the project re
 
 **ChatGPT:** Generated the initial HTML, CSS and JavaScript, drafted and revised this README, suggested project names and revised the interface following my requests. It also drafted the simulated warning, explanation, suggested fix and reflection feedback, and generated and ran development checks.
 
-ChatGPT drafted substantial sections of the report, including the abstract, problem explanation, design rationale, development discussion and limitations. It helped connect design choices to lecture concepts, prepare system diagrams, write interaction screenshot captions and discuss references. I used its drafts and revisions when assembling the report.
+ChatGPT drafted substantial sections of the report, including the abstract, problem explanation, design rationale, development discussion and limitations. It helped connect design choices to lecture concepts, write interaction screenshot captions and discuss references. I used its drafts and revisions when assembling the report.
 
-**Google Gemini:** Reviewed report text and system diagrams, commented on their relationship to the brief and lecture material, and suggested corrections. Its feedback was compared with ChatGPT's suggestions during revision.
+**Google Gemini:** Reviewed report text, commented on its relationship to the brief and lecture material, and suggested corrections. Its feedback was compared with ChatGPT's suggestions during revision.
 
-**My contribution:** Chose the topic and project scope, requested design changes, selected the appearance and name, manually tested the interface, captured screenshots and assembled the report. I questioned AI suggestions about references, diagram labels and unsupported claims, and used those discussions to revise the work. I remain responsible for the submitted content.
+**Claude:** Provided an additional review of the report and repository, including suggestions about consistency, citations, presentation and submission requirements.
+
+**My contribution:** Chose the topic and project scope, requested design changes, selected the appearance and name, manually tested the interface, captured screenshots and assembled the report. I questioned AI suggestions about references and unsupported claims, and used those discussions to revise the work. I remain responsible for the submitted content.
 
 ## Repository and submission
 
@@ -82,8 +84,8 @@ https://github.com/nisanurkcr/iis-SecondLook#readme
 Development record:
 https://github.com/nisanurkcr/iis-SecondLook#development-record
 
-The project report will identify the submitted commit SHA. The final submission version has not yet been selected.
+The submitted commit SHA is recorded in the project report to identify the exact repository version being assessed.
 
 ## Additional files
 
-`index.html` contains the complete prototype. The report, system diagram and illustrated interactions are being prepared separately and are not included in this repository version. No additional ZIP is needed to run the prototype.
+`index.html` contains the complete prototype. The project report includes the illustrated interactions and is submitted separately. It is not included in this repository version. No additional ZIP is needed to run the prototype.pository version. No additional ZIP is needed to run the prototype.
